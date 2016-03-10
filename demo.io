@@ -388,7 +388,7 @@ void atStart()
     Serial.print("\"");
     Serial.print(",");
     Serial.print("\"");
-    Serial.print("121.199.16.233");
+    Serial.print("xx.xx.xx.xx");
     Serial.print("\"");
     Serial.print(",");
     Serial.print("80\r\n");
@@ -399,7 +399,7 @@ void atStart()
     Serial2.print("\"");
     Serial2.print(",");
     Serial2.print("\"");
-    Serial2.print("121.199.16.233");
+    Serial2.print("xx.xx.xx.xx");
     Serial2.print("\"");
     Serial2.print(",");
     Serial2.print("80\r\n");
@@ -467,8 +467,8 @@ void webGet()
 
   while (r11)
   {
-    Serial.print("GET /site/interface1/id/1 HTTP/1.1\r\n");
-    Serial.print("Host: www.wmakes.com\r\n");
+    Serial.print("GET /site/xx HTTP/1.1\r\n");
+    Serial.print("Host: www.xxx.com\r\n");
     //Serial.print("Accept: *");
     //Serial.print("/");
     //Serial.print("*\n");
@@ -477,7 +477,7 @@ void webGet()
     Serial.print("");
 
     Serial2.print("GET /site/interface1/id/1 HTTP/1.1\r\n");
-    Serial2.print("Host: www.wmakes.com\r\n");
+    Serial2.print("Host: www.xx.com\r\n");
     //    Serial2.print("Accept: *");
     //    Serial2.print("/");
     //    Serial2.print("*\n");
